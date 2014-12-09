@@ -1,0 +1,9 @@
+<td>Please Select Period of Maximum 6 lectures at a time:   from 
+	<input name="sdate" type="text" id="sdate"  onfocus="javascript:NewCal('sdate','ddmmyyyy');" onclick="javascript:NewCal('sdate','ddmmyyyy');" size="15" maxlength="12" readonly="readonly" />
+		<a href = "javascript:NewCal('sdate','ddmmyyyy');">
+			<img src="images/cal.gif" width="16" onclick="javascript:NewCal('sdate','ddmmyyyy');" height="16" border="0" alt="Pick a date" />
+		</a>
+</td>
+<td>
+	<div align="center">to</div>
+</td>

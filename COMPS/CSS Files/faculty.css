@@ -1,0 +1,111 @@
+#leftmargin {
+	float: left;
+	width: 20%;
+	min-width: 270px;
+}
+
+#middle {
+	display: inline-block;
+	width: 56%;
+	overflow: auto;
+}
+
+#rightmargin {
+	float: right;
+	width: 20%;
+	min-width: 240px;
+}
+
+#gap {
+	display: inline-block;
+	width: 1%;
+}
+
+tr {
+	height: 10%;
+}
+
+#imagetd {
+	 width: 1%;
+	 height: 10%;
+	 /*border: 1px dashed black;*/
+	 text-align: center;
+}
+
+#nametd {
+	width: 30%;
+	height: 150%;
+	/*border: 1px dashed black;*/
+}
+
+img {
+	width: 105px;
+	height: 126px;
+}
+
+#nameheader {
+	color: #A00000;
+	font-family: Times New Roman;
+	font-style: italic;
+	font-size: 30px;
+}
+
+/* body {
+	background-image:url("../Images/College.jpg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	position: absolute;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+} */
+
+
+/*
+ *	Input Tag Style
+ *
+ */
+form input, textarea, select {
+	padding: 9px;  
+	border: solid 1px #E5E5E5;  
+	outline: 0;  
+	font: normal 13px/100% Verdana, Tahoma, sans-serif;  
+	width: 200px;  
+	background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF));  
+	background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 25px);  
+	box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;  
+	-moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;  
+	-webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;  
+}
+
+form  input:hover, textarea:hover,  
+form  input:focus, textarea:focus 
+{
+	border-color: #C9C9C9;   
+	-webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 8px;  
+}
+
+form label {   
+	margin-left: 10px;   
+	color: #999999;   
+}
+submit input {  
+	width: auto;  
+	padding: 25px 15px;  
+	background: #617798;  
+	border: 0;  
+	font-size: 14px;  
+	color: #FFFFFF;  
+	-moz-border-radius: 5px;  
+	-webkit-border-radius: 5px;  
+}
+
+input[type=radio], input[type=checkbox] {
+	width: 20px;
+}
+
+input[type="button"], input[type="submit"] {
+	width: 200px;
+}

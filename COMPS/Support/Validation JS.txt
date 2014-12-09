@@ -1,0 +1,65 @@
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+		<script type="text/javascript" src="http://ajax.microsoft.com/ajax/jquery.validate/1.7/jquery.validate.min.js"></script>
+		<script type="text/javascript">
+		
+			$(document).ready
+			(
+				function()
+				{
+					$("#add_fac").validate
+					(
+						{
+							rules:
+							{
+								fac_id : "required",
+								fac_name : "required",
+								password:
+								{
+									required:true,
+									minlength:5
+								},
+								emailid:
+								{
+									required:true,
+									email:true
+								},
+								address:"required",
+								gender: "required",
+								terms: "required"
+							},
+							messages:
+							{
+								username: "enter valid name",
+								password: "enter valid password",
+								emailid: "enter valid email id",
+								address: "cannont be left blank",
+								gender: "select appropriate gender",
+								terms: "click on agree the terms & conditions"
+							},
+
+							submitHandler : function(form)
+							{
+								$.post
+								(
+									'reg.php',$("#register").serialize(),function(data)
+									{	
+										$("#register").html(data);
+									}
+								);
+							}
+						}
+					);
+				}
+			);
+
+		</script>
+		
+		<style>
+		
+			label.error {
+				width: 250px;
+				display: inline;
+				color: red;
+			}
+		
+		</style>

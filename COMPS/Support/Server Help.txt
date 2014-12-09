@@ -1,0 +1,9 @@
+http://docs.joomla.org/Security_Checklist/Hosting_and_Server_Setup
+
+
+
+#XAMPP on Ubuntu 12.04 Help
+
+http://stackoverflow.com/questions/10258657/existing-configuration-file-config-inc-php-is-not-readable
+
+https://community.apachefriends.org/f/viewtopic.php?f=17&t=51060&sid=e219eafbdf0204b23dc43606ad782f3e

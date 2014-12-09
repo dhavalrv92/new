@@ -1,0 +1,15 @@
+#copyright {
+	/*font-family: cursive;*/
+	color: #7A7A7A;
+	background-color: #E0E0E0;
+}
+
+#tbl_copyright {
+	text-align: center;
+	width: 100%;
+	background-color: #E0E0E0;
+}
+
+#td_copyright {
+	text-align: center;
+}

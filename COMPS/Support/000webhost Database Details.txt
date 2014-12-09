@@ -1,0 +1,11 @@
+$mysql_host = "mysql1.000webhost.com";
+$mysql_database = "a2222678_kjscomp";
+$mysql_user = "a2222678_root";
+$mysql_password = "kjscomps2014";
+
+
+
+FTP host name = kjscomps.web44.net
+FTP user name = a2222678
+FTP password = kjscomps14
+Folder to upload files = public_html

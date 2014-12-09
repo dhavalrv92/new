@@ -1,0 +1,14 @@
+h4 {
+	color: #808080;
+	font-family: Times New Roman;
+	font-size: 20px;
+}
+
+#firstdiv {
+	border-top: 0px dashed #A00000;
+	border-bottom: 0px dashed #A00000;
+}
+
+#alldiv {
+	border-bottom: 0px dashed #A00000;
+}
